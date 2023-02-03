@@ -1,18 +1,20 @@
-import './globals.css'
+import "./globals.css";
+import NavLink from "./nav-link";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: React.PropsWithChildren) {
+  console.log('This is rendered in the server.');
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html lang="en" className="bg-gray-900 text-gray-100 antialiased">
       <head />
-      <body>{children}</body>
+      <body>
+        <header className="border-b p-4">
+          <nav className="space-x-4">
+            <NavLink href="/">Home</NavLink>
+            <NavLink href="/movies">Movies</NavLink>
+          </nav>
+        </header>
+        <div className="p-4">{children}</div>
+        </body>
     </html>
-  )
+  );
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Star Wars: episodio 1 - la amenaza fantasma",
+    "year": 1999,
+    "director": "George Lucas",
+    "description": "El joven Anakin Skywalker se convierte en aprendiz de Jedi y se enfrenta a la amenaza de los Sith.",
+    "image": "https://static.wikia.nocookie.net/esstarwars/images/d/dd/Star_Wars_epI.jpg/revision/latest",
+    "cast": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen"]
+  },
+  {
+    "id": "2",
+    "title": "Star Wars: episodio 2 - el ataque de los clones",
+    "year": 2002,
+    "director": "George Lucas",
+    "description": "Tras los intentos de asesinato de la senadora Padmé Amidala, la anterior reina de Naboo, el Padawan Anakin Skywalker es asignado para protegerla, mientras que a su maestro, Obi-Wan Kenobi, se le asigna la investigación del intento de asesinato.",
+    "image": "https://static.wikia.nocookie.net/esstarwars/images/7/7c/Episode_two_poster.jpg/revision/latest",
+    "cast": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen"]
+  }
+]
